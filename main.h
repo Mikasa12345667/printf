@@ -76,7 +76,7 @@ int print_non_printable(va_list types, char buffer[],
 int get_flags(const char *format, int *i);
 int get_width(const char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
-int get_size(const char *format, int i);
+int get_size(const char *format, int *i);
 
 /* Functions to print a string in rot 13*/
 int print_rot13string(va_list types, char buffer[],
